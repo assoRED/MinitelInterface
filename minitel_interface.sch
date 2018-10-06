@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:minitel_interface-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -176,8 +177,6 @@ Wire Wire Line
 	1550 3600 3100 3600
 Wire Wire Line
 	2150 2500 2150 2750
-Wire Wire Line
-	2150 3800 4600 3800
 NoConn ~ 8900 3050
 NoConn ~ 8900 3250
 NoConn ~ 8900 3450
@@ -264,7 +263,6 @@ Wire Wire Line
 NoConn ~ 6200 3800
 NoConn ~ 6200 4200
 NoConn ~ 4600 4200
-NoConn ~ 4600 4000
 $Comp
 L power:+12V #PWR0105
 U 1 1 5BA40784
@@ -292,5 +290,8 @@ Wire Wire Line
 	1350 2750 2150 2750
 Connection ~ 2150 2750
 Wire Wire Line
-	2150 2750 2150 3800
+	4600 4000 2150 4000
+Wire Wire Line
+	2150 2750 2150 4000
+NoConn ~ 4600 3800
 $EndSCHEMATC

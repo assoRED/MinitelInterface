@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name MintelInterface)(type KiCad)(uri C:/Users/ybalrid/Dropbox/MintelInterface)(options "")(descr ""))
+  (lib (name red_logo)(type KiCad)(uri ${KIPRJMOD}/red_logo.pretty)(options "")(descr ""))
 )
