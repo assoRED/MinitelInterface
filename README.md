@@ -1,6 +1,6 @@
 # MinitelInterface
 
-Desinged by @Ybalrid
+Desinged by [Ybalrid](https://github.com/Ybalrid/)
 
 Minitel to RS232 converter circuit (based on a MAX232 IC). Can literally be built with random stuff laying around at RED :wink:
 
